@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <title>LAD</title>
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    
+    <body>
+        <!--NAVEGACION-->
+        <nav class="navbar navbar-default">
+            <!--LADO IZQUIERDO-->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Comunicación y Arte Digital</a>
+            </div>
+            <!--LADO DERECHO-->
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Animación y Arte Digital</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="proyectos-integradores.html">Proyecto Integrador</a></li>
+                            <li><a href="ambientes-virtuales.html">Ambientes Virtuales</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Comunicación y Medios Digitales</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="borregos-tv.html">Borregos TV</a></li>
+                            <li><a href="trafico109.html">Tráfico 109</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="lideres-academicos.html">Líderes Académicos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--LOGO-->
+        <div class="col-xs-2">
+            <img src="img/logoITESM.png" class="img-responsive">
+        </div>
+        <!--PANEL-->
+        <div class="col-xs-8">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <!--TITULO-->
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h2>Animación y Arte Digital</h2>
+                        </div>
+                    </div>
+                    <hr>
+                    <!--IMAGEN-->
+                    <div class="row">
+                        <div class="col-xs-6 col-xs-offset-3">
+                            <center>
+                                <img class="img-responsive img-thumbnail" src="img/LAD-LOGO.jpg">
+                                <a class="btn btn-link" href="http://www.itesm.mx/wps/wcm/connect/itesm/tecnologico+de+monterrey/carreras+profesionales/areas+de+estudio/diseno+y+arte+aplicado/licenciado+en+animacion+y+arte+digital/puebla+lad">
+                                Ir al sitio oficial <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
+                                </a>
+                            </center>
+                        </div>
+                    </div>
+                    <hr>
+                    <!--CONTENIDO-->
+                    <div class="row">
+                        <div class="col-xs-10 col-xs-offset-1">
+                            <div class="row">
+                                <h3>Conoce la carrera</h3>
+                                <div class="col-xs-6">
+                                    <a href="#" data-toggle="modal" data-target="#ladModal" class="btn btn-primary btn-block btn-lg">
+                                        Video promocional
+                                    </a>
+                                </div>
+                                <div class="col-xs-6">
+                                    <a href="#" data-toggle="modal" data-target="#vozModal" class="btn btn-primary btn-block btn-lg">
+                                        Muestra de Proyectos
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <h3>Enlaces</h3>
+                                <div class="col-xs-6">
+                                    <a href="ambientes-virtuales.html" class="btn btn-primary btn-block btn-lg">
+                                        Ambientes Virtuales <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
+                                    </a>
+                                </div>
+                                <div class="col-xs-6">
+                                    <a href="proyectos-integradores.html" class="btn btn-primary btn-block btn-lg">
+                                        Proyecto Integrador <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <p align="center" style="font-size:12px;">
+                            D.R.&copy; Tecnológico de Monterrey en Puebla. 2016
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade bs-example-modal-lg" id="vozModal" tabindex="-1" role="dialog" aria-labelledby="videoModal">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <center>
+                        <video width="100%" height="auto" controls>
+                            <source src="videos/VOZOFF-LAD.mov" type="video/mp4">
+                            El navegador no soporta la reproducción de video.
+                        </video>
+                    </center>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade bs-example-modal-lg" id="ladModal" tabindex="-1" role="dialog" aria-labelledby="videoModal">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <center>
+                        <video width="100%" height="auto" controls>
+                            <source src="videos/ENTREVISTAS-LAD.mov" type="video/mp4">
+                            El navegador no soporta la reproducción de video.
+                        </video>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/jquery-3.1.1.slim.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
